@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "description": "A simple boilerplate to start react-redux projects.",
   "main": "index.js",
+  "repository": "git@github.com:brunobc182/react-redux-boilerplate.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/webpack-dev-server --inline --open"
   },
-  "author": "",
+  "author": "Bruno Braga",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.1",
+    "babel-preset-stage-1": "^6.1.18",
+    "lodash": "^3.10.1",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-redux": "4.0.0",
+    "react-router": "^2.0.1",
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.3"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",
